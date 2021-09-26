@@ -1,0 +1,65 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 5vw;
+    padding: 1rem;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+.hraci {
+    display: flex;
+    justify-content: space-between;
+    height: 10vw;
+    margin: 20px 0;
+}
+.hrac div {
+    margin: 0 20px;
+    font-size: 1.5vw;
+}
+
+.hraci img {
+    height: 100%;
+    aspect-ratio: 1 / 1;
+    border-radius: 10%;
+    
+}
+.hrac1 img {
+    float: left;
+}
+.hrac1_popisek {
+    float: left;
+   
+} 
+.hrac2 img {
+    float: right;
+}
+.hrac2_popisek {
+    float: right;
+}
+
+.sachovnice {
+	display:grid;
+	grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    background-image: url("obrazky/sachovnice.png");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    aspect-ratio: 1/1;
+    border:5px solid black;
+    border-radius: 2%;
+}
+
+p {
+    text-align: center;
+} 
+
+button {
+    background-color: blue;
+    color: white;
+    border-radius: 5%;
+    text-align: center;
+}
+
