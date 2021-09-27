@@ -55,16 +55,52 @@ h1 {
 }
 
 .figurky img {
+    display: grid;
     height: 10vw;
     width: auto;
 }
 
-.figurka:nth-child(1) {
+.strelec-cerny {
+    grid-column: 5;
+    grid-row: 1;
+}
+
+.pesec-cerny1 {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.pesec-cerny2 {
+    grid-column: 3;
+    grid-row: 3;
+}
+
+.pesec-bily {
+    grid-column: 4;
+    grid-row: 4;
+}
+
+.pesec-cerny3 {
+    grid-column: 8;
+    grid-row: 4;
+}
+
+.kun-bily {
+    grid-column: 2;
+    grid-row: 5;
+}
+
+.kral-cerny {
     grid-column: 6;
+    grid-row: 6;
+}
+
+.vez-cerna {
+    grid-column: 3;
     grid-row: 8;
 }
 
-.sc {
+.kral-bily {
     grid-column: 6;
     grid-row: 8;
 }
