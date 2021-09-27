@@ -1,11 +1,11 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 0 5vw;
+    margin: 2vw 5vw;
     padding: 1rem;
     text-align: center;
 }
 
-h1 {
+header h1 {
     text-align: center;
     font-size: 3rem;
 }
@@ -49,13 +49,12 @@ h1 {
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
-    aspect-ratio: 1/1;
+    aspect-ratio: 1 / 1;
     border:5px solid black;
     border-radius: 2%;
 }
 
-.figurky img {
-    display: grid;
+.sachovnice img {   
     height: 10vw;
     width: auto;
 }
@@ -105,9 +104,9 @@ h1 {
     grid-row: 8;
 }
 
-p {
+.skore {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 40px;
 } 
 
 button {
