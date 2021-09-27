@@ -2,6 +2,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0 5vw;
     padding: 1rem;
+    text-align: center;
 }
 
 h1 {
@@ -21,10 +22,11 @@ h1 {
 
 .hraci img {
     height: 100%;
+    object-fit: cover;
     aspect-ratio: 1 / 1;
     border-radius: 10%;
-    
 }
+
 .hrac1 img {
     float: left;
 }
@@ -52,8 +54,24 @@ h1 {
     border-radius: 2%;
 }
 
+.figurky img {
+    height: 10vw;
+    width: auto;
+}
+
+.figurka:nth-child(1) {
+    grid-column: 6;
+    grid-row: 8;
+}
+
+.sc {
+    grid-column: 6;
+    grid-row: 8;
+}
+
 p {
     text-align: center;
+    margin-top: 20px;
 } 
 
 button {
@@ -61,5 +79,6 @@ button {
     color: white;
     border-radius: 5%;
     text-align: center;
+    padding: 5px 20px;
 }
 
